@@ -1,0 +1,32 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/eggegramenoi"
+        android:title="@string/eggegramenoi"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/menuitem_refresh"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/play"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/menuitem_play"
+        android:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/pause"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="@string/menuitem_pause"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/logout"
+        android:title="Αποσύνδεση"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/radius"
+        android:title="Ρύθμιση Ακτίνας"
+        android:showAsAction="never" />
+</menu>
